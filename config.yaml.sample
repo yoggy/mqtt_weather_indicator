@@ -1,0 +1,7 @@
+host:      iot.eclipse.org
+port:      1883
+use_auth:  false
+username:  username
+password:  password
+postalcode: 2300000
+publish_topic: weather/2300000
