@@ -25,7 +25,7 @@
 #    $ ./mqtt_weather_indicator.rb
 #
 #    $ crontab -e 
-#    3 0 * * * /home/pi/work/mqtt_weather_indicator/mqtt_weather_indicator.rb >/dev/null 2>&1
+#    3 * * * * /home/pi/work/mqtt_weather_indicator/mqtt_weather_indicator.rb >/dev/null 2>&1
 #
 #  license:
 #    Copyright (c) 2017 yoggy <yoggy0@gmail.com>

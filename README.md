@@ -26,7 +26,7 @@ How to use
     $ ./mqtt_weather_indicator.rb
 
     $ crontab -e 
-    3 0 * * * /home/pi/work/mqtt_weather_indicator/mqtt_weather_indicator.rb >/dev/null 2>&1
+    3 * * * * /home/pi/work/mqtt_weather_indicator/mqtt_weather_indicator.rb >/dev/null 2>&1
 
 Copyright and license
 ----
