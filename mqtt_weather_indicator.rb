@@ -54,7 +54,7 @@ map = {
   200 => '#060606',  # cloudy
   300 => '#00000c',  # rainy
   400 => '#000606',  # snowy
-  500 => '#060101',  # too hot
+  550 => '#060101',  # too hot
   850 => '#04000c',  # heavy rain
 }
 color_code = codes.map{|c| map[c]}.join(",")
